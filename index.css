@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title_containter {
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 50%; 
+  
+  #title_text h1 {
+    font-size: 3rem;  
+    margin: 0; 
+    color: #333; 
+  }
+  
+  #title_text h2 {
+    position: relative;
+    font-size: 1.5rem; 
+    margin: 10px 0; 
+    color: #666;          
+  }
+
+  #title_text{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;   
+    flex-direction: column;
+  }
+                         
+  #title {
+    width: 80%; 
+    padding: 10px; 
+    font-size: 20px; 
+    border: 0; 
+    border-bottom: 2px solid #333;
+    border-radius: 2px;
+    max-width: 300px; 
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  #title:focus::placeholder {
+    color: transparent; 
+  }
+  #title:focus {
+    outline: none; 
+  }
+
+
+  #submit_button {
+    margin-top: 20px; 
+  }
+  
+  #submit {
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.title_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#title_text {
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#submit_button button {
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold; */

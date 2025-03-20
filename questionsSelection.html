@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeopardy Question Selection</title>
+    <script></script>
+  </head>
+  <body>
+    <h1>Jeopardy Question Selection</h1>
+    <p>Select a theme to input 5 questions and their answers:</p>
+
+    <div class="questions-theme-section">
+      <h2 id="actual_theme"></h2>
+
+      <!--Questions of every section-->
+      <!--Question 1-->
+      <div id="100_points" class="question active">
+        <label>100 ponts: <input type="text" id="theme-q1" /></label>
+        <label>Answer : <input type="text" id="theme-a1" /></label>
+      </div>
+
+      <!--Question 2-->
+      <div id="200_points" class="question">
+        <label>200 points: <input type="text" id="theme-q2" /></label>
+        <label>Answer: <input type="text" id="theme-a2" /></label>
+      </div>
+
+      <!--Question 3-->
+      <div id="300_points" class="question">
+        <label>300 points: <input type="text" id="theme-q3" /></label>
+        <label>Answer: <input type="text" id="theme-a3" /></label>
+      </div>
+
+      <!--Question 4-->
+      <div id="400_points" class="question">
+        <label>400 points: <input type="text" id="theme-q4" /></label>
+        <label>Answer: <input type="text" id="theme-a4" /></label>
+      </div>
+
+      <!--Question 5-->
+      <div id="500_points" class="question">
+        <label>500 points: <input type="text" id="theme-q5" /></label>
+        <label>Answer: <input type="text" id="theme-a5" /></label>
+      </div>
+
+      <button type="submit">Save Questions</button>
+    </div>
+
+    <script src="questionsSelection.js"></script>
+  </body>
+</html>
