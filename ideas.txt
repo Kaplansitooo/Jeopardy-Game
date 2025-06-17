@@ -1,0 +1,12 @@
+Ideas de la pagina web:
+1. Para añadir los temas habra como en el costumizador de strands que pones el nombre del tema y lo añades y cuando lo añades te sale una targetita en la que pones las preguntas y las respuestas
+
+2. Cuando se juege al juego tendras las targetitas y al clicar en el numero saldra la pregunta con un boton con la opcion de ver la respuesta y  tambien de seleccionar correcta o incorrecta (cruz o tic) y en caso de correcta elegir el color del equipo
+
+3. Antes de empezar a jugar se tendran que crear los equipos de forma muy basica con colores para luego escoger las preguntas
+
+4. En la parte de abajo del juego saldra la puntuacion de cada equipo y se podra ver las respuestas que han acertado y han fallado
+
+5. Se tiene que poder hacer rebote en las preguntas
+
+En caso de que se falle la pregunta saldra la pregunta en un color como amarillo y abajo a la derecha como un cuadradito con el color del equipo que ha perdido
